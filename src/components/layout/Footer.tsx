@@ -76,7 +76,7 @@ const Footer = () => {
 
         <div className="mt-10 border-t border-border pt-6">
           <p className="text-center text-sm text-muted-foreground">
-            © {new Date().getFullYear()} Book Exchange Club. Made with ❤️ for students.
+            © {new Date().getFullYear()} Book Exchange Club by GD. Made with ❤️ for students.
           </p>
         </div>
       </div>
