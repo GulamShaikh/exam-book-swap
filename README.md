@@ -4,7 +4,7 @@ A platform for students to buy, sell, and exchange exam books.
 
 ## Project info
 
-Book Exchange Club/BookAgain is a web application built to help students manage their textbooks efficiently by providing a marketplace for buying, selling, and exchanging books.
+BookAgain is a web application built to help students manage their textbooks efficiently by providing a marketplace for buying, selling, and exchanging books.
 
 ## How to run locally
 

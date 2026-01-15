@@ -12,7 +12,7 @@ const Footer = () => {
               <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-primary">
                 <BookOpen className="h-5 w-5 text-primary-foreground" />
               </div>
-              <span className="font-display text-lg font-bold">Book Exchange Club</span>
+              <span className="font-display text-lg font-bold">BookAgain</span>
             </Link>
             <p className="text-sm text-muted-foreground">
               Helping students save money by buying, selling, and exchanging entrance exam books.
@@ -76,7 +76,7 @@ const Footer = () => {
 
         <div className="mt-10 border-t border-border pt-6">
           <p className="text-center text-sm text-muted-foreground">
-            © {new Date().getFullYear()} Book Exchange Club by GD. Made with ❤️ for students.
+            © {new Date().getFullYear()} BookAgain by GD. Made with ❤️ for students.
           </p>
         </div>
       </div>

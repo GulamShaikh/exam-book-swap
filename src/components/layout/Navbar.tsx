@@ -31,7 +31,7 @@ const Navbar = () => {
               <BookOpen className="h-5 w-5 text-primary-foreground" />
             </div>
             <span className="hidden font-display text-xl font-bold text-foreground sm:block">
-              Book Exchange Club
+              BookAgain
             </span>
           </Link>
 
