@@ -80,7 +80,7 @@ const Index = () => {
         <div className="container">
           <div className="mx-auto max-w-2xl text-center mb-12">
             <h2 className="mb-4 font-display text-3xl font-bold text-foreground md:text-4xl">
-              Why Choose Book Exchange Club?
+              Why Choose BookAgain?
             </h2>
             <p className="text-muted-foreground">
               We understand entrance exam books are expensive and used for a short time.

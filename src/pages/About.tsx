@@ -18,7 +18,7 @@ const About = () => {
           <div className="mx-auto mb-6 flex h-16 w-16 items-center justify-center rounded-2xl bg-primary/10">
             <BookOpen className="h-8 w-8 text-primary" />
           </div>
-          <h1 className="mb-4 font-display text-4xl font-bold text-foreground">About Book Exchange Club</h1>
+          <h1 className="mb-4 font-display text-4xl font-bold text-foreground">About BookAgain</h1>
           <p className="mx-auto max-w-2xl text-lg text-muted-foreground">
             We're on a mission to make entrance exam preparation affordable for every student in India.
           </p>
@@ -32,7 +32,7 @@ const About = () => {
             <h2 className="mb-6 font-display text-3xl font-bold text-foreground">Our Story</h2>
             <div className="space-y-4 text-muted-foreground">
               <p>
-                Book Exchange Club was born from a simple observation: entrance exam books are 
+                BookAgain was born from a simple observation: entrance exam books are 
                 <strong className="text-foreground"> expensive</strong>, used for only a 
                 <strong className="text-foreground"> few months</strong>, and then often 
                 <strong className="text-foreground"> discarded or forgotten</strong>.

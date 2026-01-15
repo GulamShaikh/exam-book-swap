@@ -59,7 +59,7 @@ const Login = () => {
               <BookOpen className="h-6 w-6 text-primary-foreground" />
             </div>
             <span className="font-display text-2xl font-bold text-foreground">
-              Book Exchange Club
+              BookAgain
             </span>
           </Link>
         </div>
