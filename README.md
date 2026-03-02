@@ -1,4 +1,4 @@
-# Book Exchange Club / BookAgain
+# Book Exchange Hub / BookAgain
 
 A platform for students to buy, sell, and exchange exam books.
 
