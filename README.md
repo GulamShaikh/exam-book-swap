@@ -1,70 +1,125 @@
-# Book Exchange Hub / BookAgain
+# Book Exchange Hub (BookAgain)
 
-A platform for students to buy, sell, and exchange exam books.
+A web platform for students to **buy, sell, and exchange exam books**—making textbooks affordable, reusable, and easy to find.
 
-## Project info
+## Table of contents
 
-BookAgain is a web application built to help students manage their textbooks efficiently by providing a marketplace for buying, selling, and exchanging books.
+- [About](#about)
+- [Features](#features)
+- [Tech stack](#tech-stack)
+- [Project structure](#project-structure)
+- [Getting started](#getting-started)
+- [Available scripts](#available-scripts)
+- [Environment variables](#environment-variables)
+- [Deployment](#deployment)
+- [Contributing](#contributing)
+- [License](#license)
 
-## How to run locally
+## About
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+BookAgain (Book Exchange Hub) helps students reduce the cost of education by enabling a simple marketplace for second‑hand exam books. Users can list books they want to sell, discover books they need, and connect for exchange.
 
-Follow these steps:
+## Features
+
+- Create and browse book listings
+- Buy/sell/exchange focused workflow (student marketplace)
+- Fast, modern UI built with reusable components
+- Responsive design (mobile → desktop)
+
+> Note: Feature availability depends on what is implemented in the current codebase. Update this section as the product evolves.
+
+## Tech stack
+
+- **Vite** (frontend tooling)
+- **React**
+- **TypeScript**
+- **Tailwind CSS**
+- **shadcn/ui**
+
+## Project structure
+
+A typical Vite + React + TS project layout:
+
+- `src/` — application source code
+- `public/` — static assets
+- `index.html` — app entry HTML
+- `vite.config.*` — Vite configuration
+
+## Getting started
+
+### Prerequisites
+
+- **Node.js** (LTS recommended)
+- **npm** (comes with Node)
+
+If you use `nvm`, you can install Node easily: https://github.com/nvm-sh/nvm
+
+### Run locally
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+# 1) Clone
+git clone https://github.com/GulamShaikh/exam-book-swap.git
 
-# Step 2: Navigate to the project directory.
+# 2) Enter the project
 cd exam-book-swap
 
-# Step 3: Install the necessary dependencies.
-npm i
+# 3) Install dependencies
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# 4) Start dev server
 npm run dev
 ```
 
-## Editing the code
+Open the URL shown in your terminal (usually `http://localhost:5173`).
 
-**Use your preferred IDE**
+## Available scripts
 
-You can work locally using your own IDE. Clone this repo and push changes to your repository.
+```sh
+npm run dev       # Start dev server
+npm run build     # Build for production
+npm run preview   # Preview the production build locally
+```
 
-**Edit a file directly in GitHub**
+(If you have lint/typecheck scripts in `package.json`, list them here too.)
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## Environment variables
 
-**Use GitHub Codespaces**
+If the project requires environment variables, create a `.env` file in the project root.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Example:
 
-## What technologies are used for this project?
+```env
+# VITE_API_BASE_URL=https://example.com
+```
 
-This project is built with:
+> Only variables prefixed with `VITE_` are exposed to the client in Vite.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## Deployment
 
-## How can I deploy this project?
+You can deploy the production build to any static hosting that supports single‑page apps:
 
-You can deploy this project to any hosting platform that supports Vite applications, such as:
 - Vercel
 - Netlify
 - GitHub Pages
-- Any static hosting service
 
-To build for production:
-```bash
+Build command:
+
+```sh
 npm run build
 ```
+
+Output directory is typically `dist/`.
+
+## Contributing
+
+Contributions are welcome.
+
+1. Fork the repo
+2. Create a branch: `git checkout -b feature/my-change`
+3. Commit: `git commit -m "Add my change"`
+4. Push: `git push origin feature/my-change`
+5. Open a Pull Request
+
+## License
+
+Add a license to clarify usage (e.g., MIT). If you haven't chosen one yet, you can remove this section for now.
